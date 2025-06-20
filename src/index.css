@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* nicer dark scrollbar – Chrome / Edge / Brave */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #0f172a;      /* gray-950 */
+}
+body::-webkit-scrollbar-thumb {
+  background: #334155;      /* gray-700 */
+  border-radius: 6px;
+}
